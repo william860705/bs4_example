@@ -18,7 +18,8 @@ for t,a,d in zip(title, author, date):
     dates.append(d.text)
 
 # TODO: Get content of next page
-#
+# next_page_btn = soup.find_all(class_="btn wide")[1]
+# 
 #
 #
 
@@ -32,8 +33,8 @@ dict = {
 df = pd.DataFrame(dict)
 
 
-print('The shape is: ', df.shape)
-print(df)
+# print('The shape is: ', df.shape)
+# print(df)
 
 # TODO: save df to csv
 
